@@ -1,0 +1,10 @@
+#logging.level.web = debug
+server:
+  port: 8081
+
+grpc:
+  client:
+    accountService:
+      address: static://172.30.155.132:9090
+      negotiationType: plaintext
+
